@@ -86,7 +86,7 @@ export class Ball {
         angle = Math.random() * 2 * Math.PI;
     } else {
         angle = currentAngle +
-            (Math.random() * 2 - 1) * 90 * Math.PI / 180;
+            (Math.random() * 2 - 1) * 10 * Math.PI / 180;
     }
 
     this.vx = Math.cos(angle) * speed;
