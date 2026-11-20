@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ECM · Canvas</title></head>
+<body><main>
+  <p class="eyebrow">ECM · ATELIER CANVAS</p><h1>Casse-briques</h1>
+  
+  <h2 id="step-title"></h2><p id="instructions"></p>
+  <div class="game-container">
+    <canvas width="860" height="400" tabindex="0" aria-label="Zone de jeu. Flèches gauche et droite pour bouger, espace pour tirer.">Ce navigateur ne prend pas en charge Canvas.</canvas>
+
+    <div class="score-panel">
+        <h2>Score</h2>
+        <p id="score">0</p>
+
+        <h3>Meilleurs scores</h3>
+        <ol id="leaderboard"></ol>
+    </div>
+  </div>
+  <button id="restartButton" style="display: none; margin: 10px auto;">
+    Rejouer
+  </button>
+  <div class="controls"><button id="left">← Gauche</button><button id="fire">Tirer</button><button id="right">Droite →</button><button id="pause">Pause</button><button id="resume">Reprendre</button><button id="restart">Rejouer</button></div>
+  <p id="status" role="status"></p>
+</main><script type="module" src="/src/main.js"></script></body></html>
